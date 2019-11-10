@@ -52,7 +52,7 @@ body {
   
   /* header */
   
-  #masthead {
+  #header {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -63,7 +63,7 @@ body {
     border-bottom: 2px solid #cccccc;
   }
   
-  #logo {
+  #header {
     float: left;
     width: 250px;
     height: 90px;
@@ -119,10 +119,7 @@ body {
   
   /* main */
   
-  #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-  }
+  
   
   .main-section {
     float: left;
